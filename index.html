@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Responsive square block</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<label for="width">Resize the block:</label>
+<input id="width" type="range" min="0" max="1000" oninput="document.getElementById('my-block').style.width = this.value/10 + '%'"/>
+
+
+<!-- Important DOM -->
+<div id="my-block" class="block-container" style="width: 50%">
+    <div class="block-content">
+        <div class="text">Here, have some delicious text, isn't this a bit long ? You know you can tell me if it's a
+            bit long. I know I tend to be rather long from times to times, so please don't hesitate to stop me if
+            you can't take it anymore. You can even slap me in the face ! No, you wouldn't dare doing that, would
+            you ? You're too nice for that. I'm not. I would slap your ugly face over and over if you came to annoy me
+            with your relentless talking. Without any kind of shame whatsoever. Yeah, that's pretty harsh, I know, but
+            sometimes you just have to do something, do you see what I mean ?
+        </div>
+        <img src="mante_religieuse_1.jpg" alt="mante"/>
+    </div>
+</div>
+
+
+</body>
+</html>

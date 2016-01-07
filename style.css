@@ -1,0 +1,32 @@
+/*### Important Style ###*/
+.block-container {
+  position: relative;
+}
+.block-container:before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.block-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  color: #fff;
+}
+/*### Utility Style ###*/
+input {
+  width: 100%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
